@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+.app {
+  width: 100%;
+}
+
+/*header*/
+
+.Header {
+  height: 738px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 2.5rem;
+  background: #f4f4f4;
+}
+.headerAbout {
+  width: 666px;
+  height: 256px;
+  left: 175px;
+  top: 208px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 620;
+  font-size: 42px;
+  line-height: 64px;
+
+  letter-spacing: 0.01em;
+
+  color: #0a0a14;
+}
+.headerSecondDiv {
+  display: flex;
+  flex-direction: column;
+}
+.headerH3 {
+  margin-top: 2.5rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.headerİMG {
+  width: 341px;
+  height: 341px;
+  left: 928px;
+  top: 207px;
+
+  border-radius: 22px;
+}
+/*header*/
+
+/* projeler*/
+.projelerDivDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.projelerDiv {
+  width: 1100px;
+  height: 792px;
+}
+
+.projelerh1 {
+  text-align: center;
+  margin-left: 47px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+  margin-bottom: 36px;
+
+  letter-spacing: 0.01em;
+}
+/* projeler*/
+
+/* proje*/
+.projediv {
+  width: 500px;
+  height: 668px;
+
+  background: #ddeefe;
+  border-radius: 12px;
+  padding-top: 46px;
+  margin-left: 50px;
+}
+.projeİsmi {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 29px;
+
+  letter-spacing: 0.05em;
+
+  color: #000000;
+  margin-bottom: 19px;
+  margin-left: 40px;
+}
+.acıklama {
+  margin-bottom: 27px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  width: 368px;
+  margin-left: 40px;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+.topicsDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 9px;
+
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  margin-left: 40px;
+}
+.topic {
+  padding: 6px 20px 10px;
+  gap: 10px;
+  font-size: 16px;
+  height: 32px;
+  font-family: "Playfair Display";
+  background: #ffffff;
+  border-radius: 76px;
+  font-weight: 700;
+}
+.laptop {
+  background-image: url("https://s3-alpha-sig.figma.com/img/600f/f411/f246155782db0594c00c688cdbf27f80?Expires=1679875200&Signature=cy-YjlWcwMB0T99Ofmmm-pAvWan46p-1GWVfNzImp9TpB7z3fSkJp-reRmGjo3f8zsBjHGj2LnhKxHUHzujo8YbIUyxVt9nMfoCyTs18QzoH9yukzn2IuzbzvMksoZR6ikYOxzlMJNMHEQHLtTwdo4INoWWv-rf3D1AYPBQ~fS~kVT23OAkTHt1E1CXFHdc6QjQnmUnPfGbPvSk7qJT0fAitY3sjdPdYINdPqYtk2PPKBMugLlxUQtOh3H5-Xd35-rixyz23cdXzSn5v~eQwDYzuQAzA1kQz4zR2K9UhljywNlSAqKpSUV2Q9Z5QJDiBt27cF-oMejLBxR4lgdL9Yw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+
+  height: 300px;
+  background-position: center;
+  background-size: 500px;
+  margin-top: -250px;
+  margin-left: 30px;
+}
+.projeresmi {
+  margin-top: 22px;
+  width: 350px;
+  height: 220px;
+}
+
+/* proje*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
