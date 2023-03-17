@@ -38,9 +38,10 @@ function Form() {
             className="flex flex-column justify-center"
             onSubmit={handleSubmit(onSubmit)}
           >
-            <label>
+            <label className=" border-blue-500 border-solid border-4 ">
               Name Surname
               <input
+                className="border-solid border-black"
                 type="text"
                 {...register("nameSurname", {
                   required: "Please enter your name.",
@@ -54,7 +55,7 @@ function Form() {
             {errors.nameSurname && (
               <p className="text-red-500">{errors.nameSurname.message}</p>
             )}
-            <label>
+            <label className=" border-blue-500 border-solid border-4 ">
               Your Company
               <input
                 type="text"
@@ -66,7 +67,7 @@ function Form() {
             {errors.company && (
               <p className="text-red-500">{errors.company.message}</p>
             )}
-            <label>
+            <label className=" border-blue-500 border-solid border-4 ">
               E-mail
               <input
                 type="email"
@@ -82,9 +83,10 @@ function Form() {
             {errors.email && (
               <p className="text-red-500">{errors.email.message}</p>
             )}
-            <label>
+            <label className=" border-blue-500 border-solid border-4 ">
               Comments
               <textarea
+                className="border-black"
                 {...register("comments", {
                   required: "Please state your views here",
                   minLength: {
